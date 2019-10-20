@@ -27,7 +27,7 @@ class Places {
                         <li class="list-group-item">${this.zip} ${this.city}</li>
                         <li class="list-group-item"> ${this.address}</li>`;         
    }
-   /* Closure tags in order to make possible to nest other properties between those functions*/
+//footer for all cards 
 
    displayPlacesFooter(){    
        return `</ul>

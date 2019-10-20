@@ -26,7 +26,7 @@ var Places = /** @class */ (function () {
     Places.prototype.displayPlaces = function () {
         return "<div class=\"card col-lg-3 col-md-6 col-sm-6\">\n                <img class=\"card-img-top\" height=\"250\" src=\"" + this.img + "\" alt=\"\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">" + this.name + "</h5>\n                        <ul class=\"card-text list-group list-group-flush text-success\">\n                        <li class=\"list-group-item\">" + this.zip + " " + this.city + "</li>\n                        <li class=\"list-group-item\"> " + this.address + "</li>";
     };
-    /* Closure tags in order to make possible to nest other properties between those functions*/
+    //footer for all cards 
     Places.prototype.displayPlacesFooter = function () {
         return "</ul>\n                </div>\n            <div class=\"card-footer\">\n            <p class=\"w-100 text-right\">on " + this.on + "</p>\n          </div> \n      </div>";
     };
